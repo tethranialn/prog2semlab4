@@ -1,56 +1,29 @@
-/*
-Задание:
-	В входном файле последовательность символов.
-	Однопроходные реализации.
-	Пусть список 1 содержит упорядоченную последовательсность элементов типа Е1, не содержащую одинаковых элементов. 
-	Будем говорить, что список 1 представляет упорядоченное множество S, и кратко записывать это как 1 = R(S).
-	п - пересечение.
-	с - поднмножество.
-	Одновременно три списка в обработке.
-	Загрузить абсолютно все символы.
-	Заданы списки 11 = R(S1), 12 = R(S2), 13 = R(S3).
-	Проверить истинность утверждения: S3 с (S1 п S2).					 
-	Задание на строение иерархического списка, многомодульность.	
-out.txt: 
-	-------------------------------------------
-	|	  list1: abc -> def -> gh -> NULL	  |
-	|			 \|/						  |
-	|			 122 -> 32 -> NULL			  |
-	|			 \|/						  |
-	|			 NULL						  |
-	|										  |
-	|	  list2: abc -> def -> gh -> NULL     |
-	|			 \|/                          |
-	|			 122 -> 32 -> NULL            |
-	|			 \|/                          |
-	|			 NULL                         |
-	|                                         |
-	|	  list3: abc -> def -> gh -> NULL     |
-	|			 \|/                          |
-	|			 122 -> 32 -> NULL            |
-	|			 \|/                          |
-	|			 NULL                         |
-	|                                         |
-	|	 result: true                         |
-	-------------------------------------------
-Реализация: 
-	const unsigned N = 10                // строки как несколько списков по N элементов, в последнем не больше N и больше нуля.
-											текст как несколько строк.
-	struct EL_Stroka
-	{char A[N]; El_Stroka *next;};
-	struct Form_Stroka
-	{EL_Stroka *h, *l, unsigned L;};
+п»ї// main.cpp
+#include "list_operations.h"
+#include <iostream>
 
-	struct EL_V
-	{Form_Stroka F; EL_V *next;};
-	struct Form_V
-	{EL_V *h, *cur, *last;};
+int main() {
+    ListCollection collection;
+    initializeCollection(collection);
 
-	void main()
-	{ 
-		Form_V h1, h2, h3;
-		Inp1(h1); Inp2(h2);
-		Out1(h1); Out2(h2);
-				...
-	}
-*/
+    // РЎРѕР·РґР°РµРј Рё Р·Р°РїРѕР»РЅСЏРµРј СЃРїРёСЃРєРё
+    List* list1 = addListToCollection(collection);
+    List* list2 = addListToCollection(collection);
+    List* list3 = addListToCollection(collection);
+
+    // Р§С‚РµРЅРёРµ РґР°РЅРЅС‹С… РёР· С„Р°Р№Р»РѕРІ
+    readFromFile(*list1, "input1.txt");
+    readFromFile(*list2, "input2.txt");
+    readFromFile(*list3, "input3.txt");
+
+    // РџСЂРѕРІРµСЂРєР° СѓСЃР»РѕРІРёСЏ S3 вЉ‚ (S1 в€© S2)
+    bool condition = checkCondition(*list1, *list2, *list3);
+
+    std::cout << "The condition S3 вЉ‚ (S1 в€© S2) is "
+        << (condition ? "TRUE" : "FALSE") << std::endl;
+
+    // РћСЃРІРѕР±РѕР¶РґРµРЅРёРµ РїР°РјСЏС‚Рё
+    freeCollection(collection);
+
+    return 0;
+}

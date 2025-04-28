@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tethranialn.DESKTOP-QE28BKQ\\source\\repos\\prog2semlab4\\prog2semlab4\\",
+  "WorkspaceRootPath": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|C:\\Users\\tethranialn.DESKTOP-QE28BKQ\\source\\repos\\prog2semlab4\\prog2semlab4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\task.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|solutionrelative:task.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\out.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|solutionrelative:out.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|solutionrelative:in.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +38,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\tethranialn.DESKTOP-QE28BKQ\\source\\repos\\prog2semlab4\\prog2semlab4\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\tethranialn.DESKTOP-QE28BKQ\\source\\repos\\prog2semlab4\\prog2semlab4\\main.cpp",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-31T14:21:20.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "out.txt",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\out.txt",
+              "RelativeDocumentMoniker": "out.txt",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\out.txt",
+              "RelativeToolTip": "out.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-28T10:59:55.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "in.txt",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\in.txt",
+              "RelativeDocumentMoniker": "in.txt",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\in.txt",
+              "RelativeToolTip": "in.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-28T10:59:45.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "task.txt",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\task.txt",
+              "RelativeDocumentMoniker": "task.txt",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\task.txt",
+              "RelativeToolTip": "task.txt",
+              "ViewState": "AgIAADEAAAAAAAAAAABYvTkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-28T10:56:26.567Z",
               "EditorCaption": ""
             }
           ]
