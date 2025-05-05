@@ -127,12 +127,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="copyS.cpp" />
+    <ClCompile Include="DelS.cpp" />
+    <ClCompile Include="InpS.cpp" />
+    <ClCompile Include="list.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="set_operations.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="in.txt" />
-    <Text Include="out.txt" />
+    <Text Include="input.txt" />
+    <Text Include="result.txt" />
     <Text Include="task.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="copyS.h" />
+    <ClInclude Include="DelS.h" />
+    <ClInclude Include="InpS.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="set_operations.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

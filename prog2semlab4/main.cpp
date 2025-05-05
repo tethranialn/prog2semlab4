@@ -1,29 +1,32 @@
-﻿// main.cpp
-#include "list_operations.h"
+﻿#include "list.h"
+#include "InpS.h"
+#include "DelS.h"
+#include "set_operations.h"
 #include <iostream>
+#include <fstream>
 
-int main() {
-    ListCollection collection;
-    initializeCollection(collection);
+        int main() {
+            Form_V S1, S2, S3;
+            setlocale(LC_ALL, "Russian");
+            InpThreeSets(S1, S2, S3, "input.txt");
 
-    // Создаем и заполняем списки
-    List* list1 = addListToCollection(collection);
-    List* list2 = addListToCollection(collection);
-    List* list3 = addListToCollection(collection);
+            std::ofstream fout("result.txt");
+            PrintHierarchy(S1, fout, "S1");
+            PrintHierarchy(S2, fout, "S2");
+            PrintHierarchy(S3, fout, "S3");
 
-    // Чтение данных из файлов
-    readFromFile(*list1, "input1.txt");
-    readFromFile(*list2, "input2.txt");
-    readFromFile(*list3, "input3.txt");
+            Form_V intersection;
+            Intersection(S1, S2, intersection);
+            PrintHierarchy(intersection, fout, "S1 п S2");
 
-    // Проверка условия S3 ⊂ (S1 ∩ S2)
-    bool condition = checkCondition(*list1, *list2, *list3);
+            bool isSubset = IsSubset(S3, intersection);
+            fout << "Результат:\nS3 с (S1 п S2): " << (isSubset ? "Истина" : "Ложь") << "\n";
 
-    std::cout << "The condition S3 ⊂ (S1 ∩ S2) is "
-        << (condition ? "TRUE" : "FALSE") << std::endl;
+            Delete(S1);
+            Delete(S2);
+            Delete(S3);
+            Delete(intersection);
+            fout.close();
 
-    // Освобождение памяти
-    freeCollection(collection);
-
-    return 0;
-}
+            return 0;
+        }
