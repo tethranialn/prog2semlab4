@@ -2,7 +2,6 @@
 #include "list.h"
 #include "copyS.h"
 #include <fstream>
-#include <algorithm>
 
 void InpThreeSets(Form_V& S1, Form_V& S2, Form_V& S3, const char* filename) {
     InitFormV(S1);
@@ -30,11 +29,11 @@ void InpThreeSets(Form_V& S1, Form_V& S2, Form_V& S3, const char* filename) {
 
             if (fin.peek() == '\n') {
                 fin.get();
-                currentSet = std::min(currentSet + 1, MAX_SETS - 1);
+                currentSet++;
+                if (currentSet >= MAX_SETS) currentSet = MAX_SETS - 1;
                 curV = nullptr;
             }
             else {
-                // Создаем новый вертикальный элемент для новой строки
                 curV = nullptr;
             }
             continue;

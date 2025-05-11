@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prog2semlab4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prog2semlab4\\list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prog2semlab4\\list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prog2semlab4\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\InpS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prog2semlab4\\InpS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\InpS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prog2semlab4\\InpS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\DelS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prog2semlab4\\DelS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\DelS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prog2semlab4\\DelS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\copyS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prog2semlab4\\copyS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\copyS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prog2semlab4\\copyS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "input.txt",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\input.txt",
+              "RelativeDocumentMoniker": "prog2semlab4\\input.txt",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\input.txt",
+              "RelativeToolTip": "prog2semlab4\\input.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-11T17:57:51.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\main.cpp",
+              "RelativeDocumentMoniker": "prog2semlab4\\main.cpp",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\main.cpp",
+              "RelativeToolTip": "prog2semlab4\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-11T17:57:14.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "list.h",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\list.h",
+              "RelativeDocumentMoniker": "prog2semlab4\\list.h",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\list.h",
+              "RelativeToolTip": "prog2semlab4\\list.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-11T17:57:10.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "list.cpp",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\list.cpp",
+              "RelativeDocumentMoniker": "prog2semlab4\\list.cpp",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\list.cpp",
+              "RelativeToolTip": "prog2semlab4\\list.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-11T17:57:05.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InpS.h",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\InpS.h",
+              "RelativeDocumentMoniker": "prog2semlab4\\InpS.h",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\InpS.h",
+              "RelativeToolTip": "prog2semlab4\\InpS.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-11T17:56:44.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InpS.cpp",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\InpS.cpp",
+              "RelativeDocumentMoniker": "prog2semlab4\\InpS.cpp",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\InpS.cpp",
+              "RelativeToolTip": "prog2semlab4\\InpS.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-11T17:56:30.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DelS.h",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\DelS.h",
+              "RelativeDocumentMoniker": "prog2semlab4\\DelS.h",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\DelS.h",
+              "RelativeToolTip": "prog2semlab4\\DelS.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-11T17:56:27.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DelS.cpp",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\DelS.cpp",
+              "RelativeDocumentMoniker": "prog2semlab4\\DelS.cpp",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\DelS.cpp",
+              "RelativeToolTip": "prog2semlab4\\DelS.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-11T17:56:26.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "copyS.h",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\copyS.h",
+              "RelativeDocumentMoniker": "prog2semlab4\\copyS.h",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\copyS.h",
+              "RelativeToolTip": "prog2semlab4\\copyS.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-11T17:56:24.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "copyS.cpp",
+              "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\copyS.cpp",
+              "RelativeDocumentMoniker": "prog2semlab4\\copyS.cpp",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\Documents\\GitHub\\prog2semlab4\\prog2semlab4\\copyS.cpp",
+              "RelativeToolTip": "prog2semlab4\\copyS.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-11T17:56:20.897Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

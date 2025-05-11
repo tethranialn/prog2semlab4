@@ -1,96 +1,81 @@
 #include "set_operations.h"
 #include "list.h"
 #include "copyS.h"
-#include <vector>
-#include <algorithm>
 
-// Вспомогательная функция: собирает все элементы списка в плоский вектор
-static void FlattenList(const Form_V& list, std::vector<const char*>& result) {
-    EL_V* level = list.h;
-    while (level) {
-        EL_Stroka* elem = level->F.h;
-        while (elem) {
-            result.push_back(elem->A);
-            elem = elem->next;
+// Вспомогательная функция для получения следующего элемента из списка
+static const char* GetNextElement(EL_V*& currentLevel, EL_Stroka*& currentElem) {
+    while (currentLevel) {
+        if (currentElem) {
+            const char* value = currentElem->A;
+            currentElem = currentElem->next;
+            return value;
         }
-        level = level->next;
+        currentLevel = currentLevel->next;
+        if (currentLevel) currentElem = currentLevel->F.h;
     }
+    return nullptr;
 }
 
-// Реализация пересечения множеств
 void Intersection(const Form_V& s1, const Form_V& s2, Form_V& result) {
     InitFormV(result);
 
-    std::vector<const char*> elementsS1;
-    std::vector<const char*> elementsS2;
-    FlattenList(s1, elementsS1);
-    FlattenList(s2, elementsS2);
+    EL_V* level1 = s1.h;
+    EL_Stroka* elem1 = level1 ? level1->F.h : nullptr;
+    const char* current1 = GetNextElement(level1, elem1);
 
-    // Сортировка элементов
-    std::sort(elementsS1.begin(), elementsS1.end(), [](const char* a, const char* b) {
-        return CompareStrings(a, b) < 0;
-        });
-    std::sort(elementsS2.begin(), elementsS2.end(), [](const char* a, const char* b) {
-        return CompareStrings(a, b) < 0;
-        });
+    EL_V* level2 = s2.h;
+    EL_Stroka* elem2 = level2 ? level2->F.h : nullptr;
+    const char* current2 = GetNextElement(level2, elem2);
 
-    // Поиск пересечения
-    std::vector<const char*> intersection;
-    std::set_intersection(
-        elementsS1.begin(), elementsS1.end(),
-        elementsS2.begin(), elementsS2.end(),
-        std::back_inserter(intersection),
-        [](const char* a, const char* b) {
-            return CompareStrings(a, b) < 0;
+    EL_V* resLevel = nullptr;
+    while (current1 && current2) {
+        int cmp = CompareStrings(current1, current2);
+
+        if (cmp == 0) {
+            if (!resLevel || resLevel->F.L >= 3) {
+                EL_V* newLevel = new EL_V;
+                InitELV(newLevel);
+                if (!result.h) result.h = result.last = newLevel;
+                else result.last->next = newLevel;
+                result.last = newLevel;
+                resLevel = newLevel;
+            }
+            InsertString(resLevel->F, current1);
+
+            current1 = GetNextElement(level1, elem1);
+            current2 = GetNextElement(level2, elem2);
         }
-    );
-
-    // Формирование результата с сохранением порядка
-    EL_V* currentLevel = nullptr;
-    for (const char* elem : intersection) {
-        if (!currentLevel || currentLevel->F.L >= 3) {
-            EL_V* newLevel = new EL_V;
-            InitELV(newLevel);
-            if (!result.h) result.h = result.last = newLevel;
-            else result.last->next = newLevel;
-            result.last = newLevel;
-            currentLevel = newLevel;
+        else if (cmp < 0) {
+            current1 = GetNextElement(level1, elem1);
         }
-        InsertString(currentLevel->F, elem);
+        else {
+            current2 = GetNextElement(level2, elem2);
+        }
     }
 }
-// Проверка подмножества
+
 bool IsSubset(const Form_V& subset, const Form_V& mainSet) {
-    std::vector<const char*> elementsSubset;
-    std::vector<const char*> elementsMain;
-    FlattenList(subset, elementsSubset);
-    FlattenList(mainSet, elementsMain);
+    EL_V* subLevel = subset.h;
+    EL_Stroka* subElem = subLevel ? subLevel->F.h : nullptr;
+    const char* currentSub = GetNextElement(subLevel, subElem);
 
-    // Сортировка
-    std::sort(elementsSubset.begin(), elementsSubset.end(), [](const char* a, const char* b) {
-        return CompareStrings(a, b) < 0;
-        });
-    std::sort(elementsMain.begin(), elementsMain.end(), [](const char* a, const char* b) {
-        return CompareStrings(a, b) < 0;
-        });
+    EL_V* mainLevel = mainSet.h;
+    EL_Stroka* mainElem = mainLevel ? mainLevel->F.h : nullptr;
+    const char* currentMain = GetNextElement(mainLevel, mainElem);
 
-    // Проверка подмножества
-    auto itSub = elementsSubset.begin();
-    auto itMain = elementsMain.begin();
+    while (currentSub && currentMain) {
+        int cmp = CompareStrings(currentSub, currentMain);
 
-    while (itSub != elementsSubset.end() && itMain != elementsMain.end()) {
-        int cmp = CompareStrings(*itSub, *itMain);
         if (cmp == 0) {
-            ++itSub;
-            ++itMain;
+            currentSub = GetNextElement(subLevel, subElem);
+            currentMain = GetNextElement(mainLevel, mainElem);
         }
         else if (cmp < 0) {
             return false;
         }
         else {
-            ++itMain;
+            currentMain = GetNextElement(mainLevel, mainElem);
         }
     }
-
-    return (itSub == elementsSubset.end());
+    return !currentSub;
 }
