@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|solutionrelative:input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\result.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|solutionrelative:result.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|solutionrelative:input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BBE22BF-C9C7-42C7-BA73-37F96EF982A3}|prog2semlab4.vcxproj|C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -194,12 +194,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "input.txt",
               "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\input.txt",
               "RelativeDocumentMoniker": "input.txt",
-              "ToolTip": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\input.txt*",
-              "RelativeToolTip": "input.txt*",
+              "ToolTip": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\input.txt",
+              "RelativeToolTip": "input.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-05-05T14:57:13.185Z",
@@ -220,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "result.txt",
               "DocumentMoniker": "C:\\Users\\chivo\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VS repos\\prog2semlab4\\prog2semlab4\\result.txt",
               "RelativeDocumentMoniker": "result.txt",
