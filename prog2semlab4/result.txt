@@ -1,25 +1,31 @@
 --- S1 ---
 [aaaaa] -> [bbbbb] -> [ccccc]
 \/
-[ddddd] -> [eeeee]
+[ggggg] -> [ggg]
+\/
+[ddddd] -> [eeeee] -> [saddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [dddd]
+\/
+[ddddd] -> [eeeee] -> [saddd] -> [ddddd] -> [ddddd]
 ----------------
 
 --- S2 ---
 [aaaaa] -> [bbbbb] -> [ccccc]
 \/
-[ggggg] -> [ggg]
+[ggggg]
+\/
+[dshfu] -> [oishf] -> [doish] -> [foisd] -> [hfoix] -> [zscvh] -> [os]
 ----------------
 
 --- S3 ---
 [aaaaa]
 \/
 [bbbbb]
-\/
-[ccccc]
 ----------------
 
 --- S1 п S2 ---
 [aaaaa] -> [bbbbb] -> [ccccc]
+\/
+[ggggg]
 ----------------
 
 Результат:

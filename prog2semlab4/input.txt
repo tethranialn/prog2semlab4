@@ -1,9 +1,13 @@
 aaaaabbbbbccccc
-dddddeeeee
+gggggggg
+dddddeeeeesadddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddddeeeeesaddddddddddddd
+
 
 aaaaabbbbbccccc
-gggggggg
+ggggg
+dshfuoishfdoishfoisdhfoixzscvhos
 
 aaaaa
 bbbbb
-ccccc
+Проблема: должны обрабатываться не отедльные блоки, а все строки. В отчете добавить схематик сравнение и формирования списков
