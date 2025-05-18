@@ -1,9 +1,9 @@
 --- S1 ---
-[aaaaa] -> [bbbbb] -> [ccccc]
+[aaaaa] -> [bbbbb]
 \/
 [ggggg] -> [ggg]
 \/
-[ddddd] -> [eeeee] -> [saddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [ddddd] -> [dddd]
+[ddddd] -> [eeeee] -> [saddd] -> [ddddd] -> [ddddd]
 \/
 [ddddd] -> [eeeee] -> [saddd] -> [ddddd] -> [ddddd]
 ----------------
@@ -17,16 +17,11 @@
 ----------------
 
 --- S3 ---
-[aaaaa]
-\/
-[bbbbb]
+[aaaaa] -> [bbbbb] -> [ccccc]
 ----------------
 
 --- S1 п S2 ---
-[aaaaa] -> [bbbbb] -> [ccccc]
-\/
-[ggggg]
 ----------------
 
 –езультат:
-S3 с (S1 п S2): »стина
+S3 с (S1 п S2): Ћожь

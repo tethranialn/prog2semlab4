@@ -8,6 +8,4 @@ aaaaabbbbbccccc
 ggggg
 dshfuoishfdoishfoisdhfoixzscvhos
 
-aaaaa
-bbbbb
-Проблема: должны обрабатываться не отедльные блоки, а все строки. В отчете добавить схематик сравнение и формирования списков
+aaaaabbbbbccccc
